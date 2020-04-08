@@ -1,0 +1,104 @@
+#encabezado{
+
+    border-bottom: solid;
+    border-color: black;
+    border-bottom-width: 3px;
+    float: left;
+}
+
+#botones_inicio{
+    border: gray 1px solid;
+    float: left;
+    width: 100%;
+    height: 46px;
+    
+    
+}
+
+.boton{
+    float: left;
+    width: 16.66%;
+}
+
+button{
+    width: 100%;
+}
+
+
+#principal{
+    margin-top: 30px;
+    float: left ;
+    /*border: solid cyan 2px;*/
+    width: 100%;
+    height: 350px;
+    
+}
+
+#noticia_princi{
+    float: left;
+    width: 55%;
+    height: 340px;
+}
+
+.recuadro_princi{
+
+    width: 40%;
+    height: 160px;
+    float: right;
+    margin-bottom: 10px;
+}
+
+#titulo_depo, #titulo_entre{
+    width: 100%;
+    height: 60px;
+    border-top: black 1px solid;
+    border-bottom: black 1px solid;
+    float: left;
+    text-align: center;
+    
+}
+
+
+#deportes, #entretenimi{
+    text-align: center;
+    float: left;
+    /*border: solid cyan 2px;*/
+    width: 100%;
+    height: 330px;
+    margin-bottom: 10px;
+}
+
+.cuadro_depor{
+    /*border: solid red 2px;*/
+    width: 28%;
+    height: 240px;
+    float: left;
+    margin: 20px;
+}
+
+#entreteni_prin{
+    margin-top: 40px;
+    padding-left: 40px;
+    float: left;
+    /*border-style: solid;*/
+    width: 48%;
+    height: 250px;
+    align-content: center;
+}
+
+.cuadro_entre{
+    margin-top: 20px;
+    /*border-style: solid;*/
+    width: 48%;
+    height: 150px;
+    float: left;
+}
+
+#contacto{
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    float: left;
+    color: white;
+    text-align: center;
+}

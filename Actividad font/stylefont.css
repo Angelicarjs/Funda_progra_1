@@ -1,0 +1,12 @@
+
+/*https://fonts.google.com/*/
+
+@font-face{
+
+font-family:spicy;
+src: url(spicy.ttf);
+}
+
+h1{
+font-family: spicy;
+}

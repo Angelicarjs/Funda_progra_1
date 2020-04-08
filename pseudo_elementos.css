@@ -1,0 +1,32 @@
+
+/*speudoclases 5 entre (active, checked, first-child, focus, 
+first-of-type, invalid, not, visited, only-child, link, last-child, in-range) 
+obligatorios hover y nth-child*/
+
+li:first-child:hover{
+background-color: FFFFFF;
+}
+
+li:not(:nth-child(1)){
+    color: #F00;
+    list-style-type: square;
+    font-weight: bold;
+   
+}
+
+li:nth-child(3){
+    border: darkmagenta 1px dotted;
+    line-height: 10px;
+}
+
+button:active{
+    background-color: darksalmon;
+}
+
+input:focus{
+    background-color: lawngreen;
+}
+
+input:invalid{
+    background-color: red;
+}

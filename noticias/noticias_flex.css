@@ -1,0 +1,151 @@
+
+#encabezado  {
+
+    border-bottom: solid;
+    border-color: black
+    border-bottom-width: 3px;
+   
+}
+
+#botones_inicio{
+    border: gray 1px solid;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 46px; 
+    overflow: scroll;
+}
+
+#botones_inicio div {
+    
+    width: 16.66%;
+}
+
+button{
+    width: 100%;
+}
+
+#botones_inicio + div{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 450px;
+    
+}
+
+#noticia_princi{
+    width: 650px;
+    height: 440px;
+}
+
+
+#titulo_depo, #titulo_entre, #titulo_tecno{
+    width: 100%;
+    height: 60px;
+    border-top: black 1px solid;
+    border-bottom: black 1px solid;
+    text-align: center;  
+    margin-top: 20px;
+    margin-bottom: 20px;  
+}
+
+
+#titulo_depo + div{
+
+    width: 100%;
+    height: 330px;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px 40px 60px 80px; 
+}
+
+#deportes * , #tecnologia * {
+    border: gray 1px dotted;
+
+}
+#deportes > div{
+    /*border: solid red 2px;*/
+    width: 270px;
+    height: 240px;
+    margin: 20px;
+}
+#container_entretenimiento{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+
+    width: 100%;
+    height: 350px;
+}
+
+#principal_entre{
+
+    display: flex;
+    margin-right: 30px;
+    width: 450px;
+    height: 350px;
+}
+
+#recuadro_princi, #recuadro_entre{
+
+    display: flex;
+    flex-direction: column;
+    
+    width: 350px;
+    height: 350px;
+}
+
+#noticia_princi + div > div{
+
+    width: 280px;
+    height: 230px;
+
+}
+
+#recuadro_entre > div{
+    
+    width: 250px;
+    height: 170px;
+}
+
+#tecnologia{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+} 
+
+#tecno_1{
+    width: 800px;
+    height: 350px;
+    background-image: url("imagenes/tecnologia1.png");
+
+}
+#tecno_1+div{
+     width: 800px;
+   
+   
+}
+#tecnologia > div > div{
+    width: 800px;
+    height: 50px;
+    
+    position: relative;
+    top:295px;
+    background-color: rgba(184, 184, 184, 1);
+    align-text: center;
+    
+}
+
+a~a{
+    color:orange;
+}
+
+#contacto{
+    margin-top: 30px;
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    color: white;
+    text-align: center;
+}

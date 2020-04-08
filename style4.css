@@ -1,0 +1,21 @@
+li[data-ingredientes*= "Papa"], li[data-ingredientes*= "Yuca"] {
+
+    color: saddlebrown;
+}
+
+li[data-ingredientes*= Res]{
+
+    background-color: salmon;
+}
+li[data-ingredientes*= Camarones]{
+
+    border-style: dotted;
+}
+li[data-ingredientes*= Leche]{
+    text-shadow:2px 2px yellow;
+}
+ 
+li[data-ingredientes*= Pollo], li[data-ingredientes*= Gallina]{
+    text-decoration:underline ;
+}
+

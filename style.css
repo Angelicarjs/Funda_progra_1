@@ -1,0 +1,58 @@
+p {
+    color: blueviolet;
+    font-size: 19px;
+    width:auto;
+    margin: 10px;
+    text-align: center;
+    text-decoration: overline ;
+    letter-spacing: 3px;
+    /*display: inline-block;*/
+
+}
+
+
+#bogota
+{
+    border-color: cornflowerblue;
+    border-width: 3px;
+    border-style: double;
+    height: 12px;
+    /*border: brown double 2px; */
+}
+
+.capital{
+
+    background-color: lightsalmon groove;
+    border: mediumaquamarine 3px ;
+    padding: 30px;
+}
+
+
+#boton{
+    padding: 90px;
+    background-image: url(https://image.freepik.com/foto-gratis/pequeno-avion-o-avion-volando-cielo-azul_48883-138.jpg);
+    font-size: 90px;
+    position: static;
+    font-family: rockwell;
+}
+
+
+
+#listaO{
+
+    position: absolute; /* con relativa se posiciona bien, con absoluta se solapa con la otra lista*/
+    /*display: inline; ¿por qué no funciona?*/ 
+
+}
+
+li {
+    display: inline-block;   /* desaparecen las vinetas*/
+}
+
+div{
+
+    display: inline-block;
+}
+
+
+
