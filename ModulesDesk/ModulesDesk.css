@@ -1,0 +1,41 @@
+#encabezado{
+    width: 100%;
+    height: 50px;
+    border: red 1px solid;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(242, 243, 243);
+    justify-content: space-between;
+    margin-bottom: 20px;  
+    align-items: center;
+}
+
+#encabezado > div{
+    display: flex;
+    width: 33%;
+    height: 100%;
+    border: springgreen 1px solid;
+    align-items: center; 
+}
+
+#modulos{
+text-align: center;
+}
+
+#leng-canas{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+ 
+#canasta{
+    
+    
+}
+#primer_recuadro{
+    background-image: url(imagenes/1.png);
+    width: 100%;
+    height: 700px;
+}
