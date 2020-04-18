@@ -1,0 +1,224 @@
+@font-face{
+    font-family:letra1;
+    src: url(fonts/static/Muli-ExtraBold.ttf);    
+}
+
+@font-face{
+    font-family: letra2;
+    src: url(fonts/static/Muli-Light.ttf);
+}
+
+@font-face{
+    font-family: letra3;
+    src: url(fonts/static/Muli-Regular.ttf);
+}
+
+.sub_verde{
+    text-decoration: underline #58a573;
+}
+
+#encabezado{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    background-color: rgb(242, 243, 243);
+    justify-content: space-between;
+    align-items: center;
+    font-family: letra1;
+}
+
+#encabezado > div{
+    display: flex;
+    align-items: center; 
+}
+
+#encabezado> div:nth-child(1){
+    width: 100px;
+    height: 100%;
+    font-size: 12px;
+    padding-left: 40px;
+
+    /*>a:active{
+        color:#58a573;
+    }*/   
+}
+
+#encabezado> div:nth-child(1)::before{
+    content: url(imagenes/menu.png);
+}
+
+#encabezado> div:nth-child(2){
+    width: 65%;
+    height: 100%;
+}
+
+#encabezado> div:nth-child(3){
+    height: 100%;
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#encabezado>div>div{
+    font-size: 12px;
+}
+
+#primer_recuadro{
+    background-image: url(imagenes/1.jpeg);
+    width: 100%;
+    height: 700px;
+    position: static;
+}
+
+#primer_recuadro>div:nth-child(1){
+    width: 45%;
+    height: 40%;
+    font-size: 35px;
+    font-weight: 800;
+    /*border:red 1px dotted;*/
+    position: relative;
+    margin-left: 75px;
+    font-family: letra1;
+}
+
+#primer_recuadro>div:nth-child(2){
+    width: 45%;
+    height: 20%;
+    position: relative;
+    margin-left: 75px;
+    font-size: 20px;
+    font-family: letra1;
+    /*background-color: rgb(242, 243, 243);*/
+}
+
+#primer_recuadro>div:nth-child(3){
+    width: 40%;
+    height: 14%;
+    position: relative;
+    border:rgb(242, 243, 243) 1px dotted;
+    margin-left: 75px;
+    /*background-color: rgb(242, 243, 243);*/
+    font-family: letra2;
+    font-size: 14px;
+}
+
+button:first-child, button:nth-child(2){
+    width: 100%;
+    height: 100%;
+    background-color:#58a573;
+    font-family: letra3;
+    font-size: 14px;
+    color: honeydew;
+}
+#primer_recuadro>div:nth-child(4){
+    position: relative;
+    width: 23%;
+    height: 8%;
+    margin-top: 32px;
+    margin-left: 65px;       
+}
+
+#segundo_recuadro{
+    position: static;
+    width: 100%;
+    height: 550px;
+    background-color:#58a573 ;
+}
+
+#segundo_recuadro > div{
+    padding-top: 40px;
+    padding-left:60px;
+    float: left;
+    width: 43%;
+    height: 100%;
+    
+}
+
+#segundo_recuadro{
+    div{
+        h2{
+            font-family: letra1;
+            font-size: 37px;
+            /*line-height: 200%;*/
+        }
+    }
+} 
+
+#segundo_recuadro{
+    div{
+        p{
+            font-size: 17px;
+            font-family: letra3;
+        }
+    }
+} 
+
+#segundo_recuadro>div>div{
+    position: relative;
+    width: 250px;
+    height: 55px;
+    margin-top: 32px;
+    
+    button{
+        background-color: #232827; 
+        border: solid 1px #232827;
+        font-family: letra3;
+        font-size: 14px;
+    } 
+         
+}
+
+#tercer_recuadro{
+    width: 100%;
+    height: 770px;
+    background-color: rgb(242, 243, 243);
+    font-family: letra1;
+    font-size: 28px;
+    margin-left: 30px;
+    
+    div:nth-child(2){
+        display: flex;
+        justify-content: space-around;
+        width: 96%;
+        height: 670px;
+        border: red 1px solid;
+        
+        align-items: center;
+
+        >div:nth-child(1){
+            width: 75%;
+            height: 85%;
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            border: red 1px solid;
+
+            >div:nth-child(2){
+                width: 100%;
+                height: 60%;
+                border: red 1px solid;
+            }
+        }
+
+        >div:nth-child(2){
+            background-color: white;
+            width: 40%;
+            height: 85%;
+        }
+
+        >
+        div:nth-child(3){
+            background-color: black;
+            width: 40%;
+            height: 85%;
+            margin: 20px;
+        }
+    }
+
+}
+
+#cuarto_recuadro, #quinto_recuadro {
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
